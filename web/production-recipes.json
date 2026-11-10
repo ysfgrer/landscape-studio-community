@@ -1,0 +1,495 @@
+{
+  "sections": [
+    {
+      "id": "location",
+      "label": "Location sequence",
+      "group": "Context",
+      "icon": "layers",
+      "hint": "Country → region → city → site in 3D.",
+      "prompt": "Build a nested country–region–city–site location sequence using orthographic axonometric map plates, consistent orientation and a common projection. Use real boundaries and coastline, a restrained context fill and a heavy black + at the relevant site. Give every plate its geographic name. Keep labels at native project print sizes. Do not invent terrain or buildings; flat map plates in axonometry are appropriate when elevation evidence is missing."
+    },
+    {
+      "id": "timeline",
+      "label": "Historical timeline",
+      "group": "Context",
+      "icon": "time",
+      "hint": "Evidence-backed urban and landscape change.",
+      "prompt": "Compose a chronological spine with verified dates, archival photographs or drawings, and concise event labels tied to the correct date. Integrate architecture, landscape and social history into a continuous visual narrative. Distinguish historic evidence from reconstruction. Do not fabricate dates, landmarks, photographs or causal claims; place citations and uncertainties in source notes."
+    },
+    {
+      "id": "regional_water",
+      "label": "Mountain to river",
+      "group": "Ecology",
+      "icon": "water",
+      "hint": "Catchment, tributaries and the urban plain.",
+      "prompt": "Draw the regional water system from upland catchments to urban waterways using real hydrography and terrain. Show coherent landform and legible urban context; do not invent connections. Adapt the regional drawing extent independently of the local design boundary."
+    },
+    {
+      "id": "urban_fabric",
+      "label": "Urban fabric",
+      "group": "Analysis",
+      "icon": "grid",
+      "hint": "Blocks, buildings and open-space structure.",
+      "prompt": "Use evidence-backed building footprints, streets and blocks to compare solid and void. Preserve topology and roads. Establish a clear hierarchy of buildings, public open space and neutral context. Include comparative samples only from the actual site, with consistent extents and verified density measures if available."
+    },
+    {
+      "id": "landuse",
+      "label": "Land use",
+      "group": "Analysis",
+      "icon": "grid",
+      "hint": "Existing uses and urban interfaces.",
+      "prompt": "Map verified land uses with a small coherent legend. Separate existing use, proposal and uncertain classification. Highlight meaningful interfaces around the site. Never infer private building programmes solely from roof appearance; use an unknown class when evidence is absent."
+    },
+    {
+      "id": "mobility",
+      "label": "Access & movement",
+      "group": "Analysis",
+      "icon": "paths",
+      "hint": "Walking, cycling, transit and crossings.",
+      "prompt": "Map real access points, walking and cycling networks, transit and barriers at the correct spatial positions. Distinguish mapped crossings from field-confirmed provision. Do not assert safety, travel time or accessibility without evidence. Use network line hierarchy and restrained contextual streets."
+    },
+    {
+      "id": "vegetation",
+      "label": "Vegetation systems",
+      "group": "Ecology",
+      "icon": "plant",
+      "hint": "Canopy, planting structure and habitat.",
+      "prompt": "Map coherent canopy, open vegetation and planting structure from actual evidence. Smooth pixel noise while preserving meaningful clearings and structures. Use genus-level or tentative identification where warranted. Include natural architectural botanical drawings; do not distribute invented exact species or counts."
+    },
+    {
+      "id": "topography",
+      "label": "Terrain & slope",
+      "group": "Ecology",
+      "icon": "terrain",
+      "hint": "Contours and landform relationships.",
+      "prompt": "Use actual elevation sources to draw consistent contours with legible index contours and slope relationships. Record datum, interval and resolution in methods. Do not manufacture contours or use exaggerated terrain as measured geometry. Keep terrain visible at final page size."
+    },
+    {
+      "id": "flood",
+      "label": "Water & flood adaptation",
+      "group": "Ecology",
+      "icon": "water",
+      "hint": "Runoff, storage and riparian systems.",
+      "prompt": "Show supported water movement, drainage, storage opportunities and riparian relationships. Clearly distinguish observed conditions from design proposals. Do not label an unmodelled flood extent or return period as verified. Use section and plan together where useful, with material and water relationships integrated."
+    },
+    {
+      "id": "climate",
+      "label": "Climate & comfort",
+      "group": "Analysis",
+      "icon": "sun",
+      "hint": "Sun, shade, wind and thermal comfort.",
+      "prompt": "Draw orientation-correct sun and shade relationships and evidence-backed prevailing wind. Distinguish measured or modelled information from qualitative design intent. Connect climatic conditions to actual spaces, canopy and surfaces. Avoid decorative sun icons replacing spatial analysis."
+    },
+    {
+      "id": "social",
+      "label": "People & everyday life",
+      "group": "Analysis",
+      "icon": "people",
+      "hint": "Activities and the public realm.",
+      "prompt": "Map field-supported uses, public facilities and observed activity patterns. Use available demographic evidence with date and spatial unit in source notes. Avoid invented population counts, identities or behaviour. Integrate restrained human entourage with accurate spatial context."
+    },
+    {
+      "id": "edges",
+      "label": "Edges & barriers",
+      "group": "Analysis",
+      "icon": "paths",
+      "hint": "River banks, airfield edges and crossings.",
+      "prompt": "Draw physical and ecological discontinuities supported by sources, including bank conditions, fences and mobility barriers. Distinguish screening observed on site from unverified planting intent."
+    },
+    {
+      "id": "synthesis",
+      "label": "Synthesis & opportunities",
+      "group": "Analysis",
+      "icon": "nodes",
+      "hint": "Turn findings into spatial design priorities.",
+      "prompt": "Combine only supported findings into a legible spatial synthesis. Tie each opportunity or constraint to an actual site feature and proposed response. Use a small hierarchy rather than dumping every analysis layer; avoid generic SWOT prose without spatial evidence."
+    },
+    {
+      "id": "concept",
+      "label": "Concept system",
+      "group": "Design",
+      "icon": "nodes",
+      "hint": "A clear spatial idea and its mechanisms.",
+      "prompt": "Explain the proposed spatial concept visually through connected landscape systems and a concise hierarchy. Preserve the site geometry. Distinguish proposal from existing facts. Use integrated linework, no decorative collage of unrelated stock icons or slogans."
+    },
+    {
+      "id": "masterplan",
+      "label": "Landscape masterplan",
+      "group": "Design",
+      "icon": "plan",
+      "hint": "An integrated plan with clear spatial hierarchy.",
+      "prompt": "Develop a coherent landscape masterplan using verified basemap geometry. Resolve paths, water, planting, public spaces and built edges as a continuous design. Separate proposals from existing conditions. Scale only from verified geometry and maintain native text sizes."
+    },
+    {
+      "id": "exploded",
+      "label": "Exploded systems",
+      "group": "Design",
+      "icon": "layers",
+      "hint": "Aligned landscape layers in axonometry.",
+      "prompt": "Create orthographic axonometric plates aligned in plan: context, water, vegetation and integrated landscape. Preserve matching geometry across layers and use consistent elevation offsets, clean layer silhouettes and visible line weights. Obey project-specific water-network airfield omissions. Do not invent clipped context."
+    },
+    {
+      "id": "section",
+      "label": "Landscape section",
+      "group": "Detail",
+      "icon": "section",
+      "hint": "Ground, water, planting and human scale.",
+      "prompt": "Construct a spatially meaningful section through real or explicitly proposed terrain. Show soil cut, retaining edges, water, paths, planting and people with architectural depth. Do not draw a generic flat strip. State print scale only when geometrically verified; never add NTS or scale-omission explanations."
+    },
+    {
+      "id": "construction",
+      "label": "Construction details",
+      "group": "Detail",
+      "icon": "detail",
+      "hint": "Buildable interfaces and material layers.",
+      "prompt": "Draw constructible material interfaces, dimensions and material assemblies supported by source detail. Use monochrome architectural linework with restrained planting wash. Respect project scale conventions including TREE + PAVING at 1:50 where applicable. Do not present guessed dimensions as surveyed specifications."
+    },
+    {
+      "id": "planting",
+      "label": "Planting strategy",
+      "group": "Detail",
+      "icon": "plant",
+      "hint": "Habitat structure and seasonal planting.",
+      "prompt": "Develop planting groups by form, habitat and supported species suitability, distinguishing proposal from field identification. Use layered botanical entourage and meaningful soil/water relationships. Give Latin botanical names when justified, without unsupported exact existing counts or locations."
+    },
+    {
+      "id": "furniture",
+      "label": "Public-space details",
+      "group": "Detail",
+      "icon": "seat",
+      "hint": "Seating, shade and planted edges.",
+      "prompt": "Create coordinated axonometric public-space details: seating, planters, paving and shade integrated into the site design. Show construction logic and accessible clearances where verified. Retain consistent drawing language and scale cues; do not paste unrelated furniture renders."
+    },
+    {
+      "id": "axon",
+      "label": "Spatial axonometric",
+      "group": "Design",
+      "icon": "cube",
+      "hint": "An integrated view of the design.",
+      "prompt": "Create a coherent orthographic axonometric with actual or explicitly proposed geometry, natural planting, paving and human entourage. Maintain one view direction and consistent line hierarchy. Adapt all assets to the selected reference or project-board drawing language before integration."
+    },
+    {
+      "id": "experience",
+      "label": "Experiential collage",
+      "group": "Narrative",
+      "icon": "view",
+      "hint": "An inhabited landscape atmosphere.",
+      "prompt": "Build a unified spatial collage with consistent horizon, depth, light and graphic treatment. Integrate site-specific landscape, people and built edges into a continuous composition, not isolated cutouts around a map. Use project-supported photographs or explicitly proposed scenes; never imply an imagined historic scene is archival."
+    },
+    {
+      "id": "phasing",
+      "label": "Implementation phases",
+      "group": "Design",
+      "icon": "time",
+      "hint": "A credible sequence of landscape change.",
+      "prompt": "Show a small number of coherent implementation phases on the same extent, orientation and legend. Distinguish temporary and permanent works and explain spatial dependencies visually. Do not invent costs, dates or delivery commitments."
+    },
+    {
+      "id": "seasonal",
+      "label": "Seasonal landscapes",
+      "group": "Ecology",
+      "icon": "sun",
+      "hint": "How water, planting and use change.",
+      "prompt": "Compare seasons or hydrologic conditions using matched viewpoints, scale and geometry. Vary only evidence-backed or explicitly proposed vegetation character, water and use. Do not imply exact seasonal water levels or phenology without supporting data."
+    }
+  ],
+  "questions": {
+    "Collage": [
+      {
+        "id": "story",
+        "label": "What story?",
+        "default": "history",
+        "choices": [
+          [
+            "history",
+            "City history",
+            "time",
+            "Create a historically grounded narrative collage of the target city and its landscape evolution, supported by verified sources."
+          ],
+          [
+            "water",
+            "River & landscape",
+            "water",
+            "Make the river, landscape and urban relationships the narrative spine."
+          ],
+          [
+            "daily",
+            "Everyday life",
+            "people",
+            "Focus on public life and the lived experience of the target project using supported places and activities."
+          ],
+          [
+            "future",
+            "Future vision",
+            "view",
+            "Create an explicitly proposed future landscape atmosphere; do not present it as a photograph of existing conditions."
+          ]
+        ]
+      },
+      {
+        "id": "place",
+        "label": "Where does the story live?",
+        "default": "city",
+        "choices": [
+          [
+            "city",
+            "The city",
+            "grid",
+            "Use the target project city as narrative context, not the locked local basemap boundary."
+          ],
+          [
+            "district",
+            "Neighbourhood",
+            "plan",
+            "Focus the narrative on the actual project neighbourhood and its immediate cultural landscape."
+          ],
+          [
+            "landscape",
+            "Wider landscape",
+            "terrain",
+            "Use the wider regional landscape and its documented relationship to the project as narrative context."
+          ]
+        ]
+      },
+      {
+        "id": "period",
+        "label": "Which period?",
+        "default": "layered",
+        "choices": [
+          [
+            "deep",
+            "Earlier history",
+            "time",
+            "Focus on documented earlier history before the modern transformation of the city; research locally appropriate eras and verify dates."
+          ],
+          [
+            "recent",
+            "Recent history",
+            "time",
+            "Focus on documented twentieth-century change through the present, with explicit dates for events and imagery."
+          ],
+          [
+            "today",
+            "Today",
+            "people",
+            "Depict contemporary documented conditions; do not introduce historic imagery as current."
+          ],
+          [
+            "layered",
+            "Past → present",
+            "layers",
+            "Integrate documented earlier history, modern change and contemporary conditions in an intelligible temporal sequence."
+          ]
+        ]
+      },
+      {
+        "id": "composition",
+        "label": "How should it unfold?",
+        "default": "panorama",
+        "choices": [
+          [
+            "panorama",
+            "Continuous panorama",
+            "view",
+            "Build one continuous inhabited panorama with a shared horizon and integrated depth."
+          ],
+          [
+            "timeline",
+            "Timeline collage",
+            "time",
+            "Compose a chronological visual spine, with verified dates and architectural/landscape images embedded in the sequence."
+          ],
+          [
+            "territory",
+            "Map-led collage",
+            "plan",
+            "Integrate geographic fragments and images into one spatial composition; geographic source extent must serve the narrative rather than filling the page."
+          ],
+          [
+            "layers",
+            "Layered memories",
+            "layers",
+            "Use overlapping spatial and archival fragments with a deliberate hierarchy; reconcile texture, contrast and edges rather than pasting complete rectangles."
+          ]
+        ]
+      }
+    ],
+    "Diagram": [
+      {
+        "id": "system",
+        "label": "Which system?",
+        "default": "water",
+        "choices": [
+          [
+            "water",
+            "Water network",
+            "water",
+            "Focus on hydrography and meaningful river/canal relationships using verified geometry."
+          ],
+          [
+            "green",
+            "Green infrastructure",
+            "plant",
+            "Focus on canopy, habitat and open-space connections grounded in actual evidence."
+          ],
+          [
+            "urban",
+            "Urban structure",
+            "grid",
+            "Focus on urban fabric, built edges, streets and open-space relationships."
+          ],
+          [
+            "movement",
+            "Movement & access",
+            "paths",
+            "Focus on mapped access networks, connections and barriers."
+          ],
+          [
+            "history",
+            "Historical change",
+            "time",
+            "Show documented spatial change over time with dated evidence."
+          ],
+          [
+            "concept",
+            "Design concept",
+            "nodes",
+            "Show the proposal as an integrated spatial system, clearly distinguished from existing conditions."
+          ]
+        ]
+      },
+      {
+        "id": "representation",
+        "label": "Drawing structure",
+        "default": "axon",
+        "choices": [
+          [
+            "axon",
+            "Axonometric",
+            "cube",
+            "Use orthographic axonometry with consistent orientation, real geometry and architectural line hierarchy."
+          ],
+          [
+            "exploded",
+            "Exploded layers",
+            "layers",
+            "Separate related spatial or temporal elements with controlled offsets and shared registration. Follow the selected reference: architectural montage references retain detailed built-form episodes, entourage and continuous spatial narrative; map-layer references may use aligned geographic plates. Do not turn a detailed scene reference into map-only plates. Preserve actual target geometry."
+          ],
+          [
+            "plan",
+            "Plan diagram",
+            "plan",
+            "Use a selective plan-based diagram with spatially accurate relationships and legible neutral context."
+          ],
+          [
+            "sequence",
+            "Spatial sequence",
+            "time",
+            "Use a coherent sequence of frames with consistent scale/viewpoint and explicit spatial or temporal relationships."
+          ]
+        ]
+      }
+    ],
+    "Analysis": [
+      {
+        "id": "focus",
+        "label": "What are we analysing?",
+        "default": [
+          "water",
+          "fabric"
+        ],
+        "multiple": true,
+        "choices": [
+          [
+            "water",
+            "Water & terrain",
+            "water",
+            "Draw the regional water system from upland catchments to urban waterways using real hydrography and terrain. Show coherent landform and legible urban context; do not invent connections. Adapt the regional drawing extent independently of the local design boundary."
+          ],
+          [
+            "fabric",
+            "Urban fabric",
+            "grid",
+            "Use evidence-backed building footprints, streets and blocks to compare solid and void. Preserve topology and roads. Establish a clear hierarchy of buildings, public open space and neutral context. Include comparative samples only from the actual site, with consistent extents and verified density measures if available."
+          ],
+          [
+            "movement",
+            "Access & barriers",
+            "paths",
+            "Map real access points, walking and cycling networks, transit and barriers at the correct spatial positions. Distinguish mapped crossings from field-confirmed provision. Do not assert safety, travel time or accessibility without evidence. Use network line hierarchy and restrained contextual streets."
+          ],
+          [
+            "ecology",
+            "Vegetation & habitat",
+            "plant",
+            "Map coherent canopy, open vegetation and planting structure from actual evidence. Smooth pixel noise while preserving meaningful clearings and structures. Use genus-level or tentative identification where warranted. Include natural architectural botanical drawings; do not distribute invented exact species or counts."
+          ],
+          [
+            "climate",
+            "Climate & comfort",
+            "sun",
+            "Draw orientation-correct sun and shade relationships and evidence-backed prevailing wind. Distinguish measured or modelled information from qualitative design intent. Connect climatic conditions to actual spaces, canopy and surfaces. Avoid decorative sun icons replacing spatial analysis."
+          ],
+          [
+            "social",
+            "People & activities",
+            "people",
+            "Map field-supported uses, public facilities and observed activity patterns. Use available demographic evidence with date and spatial unit in source notes. Avoid invented population counts, identities or behaviour. Integrate restrained human entourage with accurate spatial context."
+          ]
+        ]
+      },
+      {
+        "id": "presentation",
+        "label": "How should findings read?",
+        "default": "layers",
+        "choices": [
+          [
+            "layers",
+            "Analytical layers",
+            "layers",
+            "Use spatially aligned comparative analytical layers with consistent context and an explicit shared legend."
+          ],
+          [
+            "synthesis",
+            "Integrated synthesis",
+            "nodes",
+            "Integrate the selected evidence into one spatial synthesis with feature-linked substantive annotations."
+          ],
+          [
+            "compare",
+            "Compare conditions",
+            "grid",
+            "Compare supported conditions at matched extents, scale, orientation and classification; do not invent a second scenario."
+          ]
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "id": "priority",
+        "label": "What should carry across?",
+        "default": "composition",
+        "choices": [
+          [
+            "composition",
+            "Composition & layout",
+            "layers",
+            "Prioritize the reference composition, proportions and visual hierarchy while rebuilding it around the target project."
+          ],
+          [
+            "linework",
+            "Drawing language",
+            "detail",
+            "Prioritize reference stroke hierarchy, textures, hatching and entourage language with a coherent composition."
+          ],
+          [
+            "atmosphere",
+            "Atmosphere",
+            "view",
+            "Prioritize mood, contrast and spatial depth while retaining geographic truth and project content."
+          ]
+        ]
+      }
+    ]
+  }
+}

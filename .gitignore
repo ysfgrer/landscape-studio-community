@@ -1,0 +1,14 @@
+.venv/
+.runtime/
+__pycache__/
+*.pyc
+data/
+jobs/
+cache/
+web/generated/
+.env
+.env.*
+.codex/
+auth.json
+*.log
+.DS_Store
